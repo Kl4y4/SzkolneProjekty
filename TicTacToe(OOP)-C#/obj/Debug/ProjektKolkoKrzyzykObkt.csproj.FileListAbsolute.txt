@@ -1,0 +1,7 @@
+C:\Users\surow\Desktop\PD\Podstawy Programowania\ProjektKolkoKrzyzykObkt\bin\Debug\ProjektKolkoKrzyzykObkt.exe.config
+C:\Users\surow\Desktop\PD\Podstawy Programowania\ProjektKolkoKrzyzykObkt\bin\Debug\ProjektKolkoKrzyzykObkt.exe
+C:\Users\surow\Desktop\PD\Podstawy Programowania\ProjektKolkoKrzyzykObkt\bin\Debug\ProjektKolkoKrzyzykObkt.pdb
+C:\Users\surow\Desktop\PD\Podstawy Programowania\ProjektKolkoKrzyzykObkt\obj\Debug\ProjektKolkoKrzyzykObkt.csprojAssemblyReference.cache
+C:\Users\surow\Desktop\PD\Podstawy Programowania\ProjektKolkoKrzyzykObkt\obj\Debug\ProjektKolkoKrzyzykObkt.csproj.CoreCompileInputs.cache
+C:\Users\surow\Desktop\PD\Podstawy Programowania\ProjektKolkoKrzyzykObkt\obj\Debug\ProjektKolkoKrzyzykObkt.exe
+C:\Users\surow\Desktop\PD\Podstawy Programowania\ProjektKolkoKrzyzykObkt\obj\Debug\ProjektKolkoKrzyzykObkt.pdb

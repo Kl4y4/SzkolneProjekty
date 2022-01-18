@@ -1,0 +1,7 @@
+C:\Users\surow\Desktop\PD\Podstawy Programowania\Kolko i krzyzyk\KolkoIKrzyzyk\obj\Debug\KolkoIKrzyzyk.csprojAssemblyReference.cache
+C:\Users\surow\Desktop\PD\Podstawy Programowania\Kolko i krzyzyk\KolkoIKrzyzyk\obj\Debug\KolkoIKrzyzyk.csproj.CoreCompileInputs.cache
+C:\Users\surow\Desktop\PD\Podstawy Programowania\Kolko i krzyzyk\KolkoIKrzyzyk\bin\Debug\KolkoIKrzyzyk.exe.config
+C:\Users\surow\Desktop\PD\Podstawy Programowania\Kolko i krzyzyk\KolkoIKrzyzyk\bin\Debug\KolkoIKrzyzyk.exe
+C:\Users\surow\Desktop\PD\Podstawy Programowania\Kolko i krzyzyk\KolkoIKrzyzyk\bin\Debug\KolkoIKrzyzyk.pdb
+C:\Users\surow\Desktop\PD\Podstawy Programowania\Kolko i krzyzyk\KolkoIKrzyzyk\obj\Debug\KolkoIKrzyzyk.exe
+C:\Users\surow\Desktop\PD\Podstawy Programowania\Kolko i krzyzyk\KolkoIKrzyzyk\obj\Debug\KolkoIKrzyzyk.pdb

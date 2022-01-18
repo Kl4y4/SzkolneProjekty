@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang='pl'>
+
+<head>
+
+	<link rel='Stylesheet' href='../../../../Pliki%20robocze/Bartosz%20Surowiec/Walidacja%20formularzy/style1.css'>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	
+	<title> Walidacja formularzy </title>
+	
+	<meta charset='utf-8'>
+
+</head>
+
+<body>
+
+	<div id='content'>
+
+		<div class='table'>
+		
+			<h3> Rodzaje </h3>
+		
+			<form>
+		
+				Nazwa rodzaju <br /> <input type='text' maxlength='20' name='typeName' required> <br /> <br />
+			
+				Cena <br /> <input type='number' name='price' pattern='\d+(\.\d{2})?' required> <br /> <br />
+				
+				<input type='submit' value='Dodaj rekord'>
+		
+			</form>
+		
+		</div>
+
+		<div class='table'>
+		
+			<h3> Pracownicy </h3>
+		
+			<form>
+			
+				Imię <br /> <input type='text' maxlength='20' name='workerName' required> <br /> <br />
+				Nazwisko <br /> <input type='text' maxlength='20' name='workerSurname' required> <br /> <br />
+				
+				<input type='submit' value='Dodaj rekord'>
+			
+			</form>
+		
+		</div>
+	
+		<div class='table'>
+		
+			<h3> Dane adresowe </h3>
+		
+			<form>
+			
+				Ulica <br /> <input type='text' maxlength='40' name='streetName' required> <br /> <br />
+				Numer domu <br /> <input type='number'> <br /> <br />
+				Kod pocztowy <br /> <input type='number' pattern='^\d{2}-\d{3}$' name='postalCode' required> <br /> <br />
+				Miasto <br /> <select name='city'>
+					<option> Warszawa </option>
+					<option> Kraków </option>
+					<option> Gdańsk </option>
+					<option> Wrocław </option>
+				</select> <br /> <br />
+				ID Pracownika <br /> <select name='workerIDA'>
+					<option> 1 </option>
+					<option> 2 </option>
+				</select> <br /> <br />
+				
+				<input type='submit' value='Dodaj rekord'>
+			
+			</form>
+		
+		</div>
+	
+		<div class='table'>
+		
+			<h3> Dane kontaktowe </h3>
+		
+			<form>
+			
+				Numer telefonu <br /> <input type='tel' name='phoneNum' pattern='[0-9]{3}-[0-9]{3}-[0-9]{3}' placeholder='000-000-000' required> <br /> <br />
+				
+				E-mail <br /> <input type='email' name='email' pattern='.+\@.+' placeholder='Wprowadz swoj email' required> <br /> <br />
+				
+				ID Pracownika <br /> <select name='workerIDK'>
+					<option> 1 </option>
+					<option> 2 </option>
+				</select> <br /> <br />
+				
+				<input type='submit' value='Dodaj rekord'>
+			
+			</form>
+		
+		</div>
+	
+		<div class='table'>
+		
+			<h3> Zamówienia </h3>
+		
+			<form>
+			
+				Data sprzedania <br /> <input type='date' name='sellDate' min='2020-10-24' max='2050-10-24' required> <br /> <br />
+				
+				Suma <br /> <input type='number' name='finalPrice' min='0' max='1000000' required> <br /> <br />
+				
+				<input type='submit' value='Dodaj rekord'>
+			
+			</form>
+		
+		</div>
+	
+		<div class='table'>
+		
+			<h3> Pomidory </h3>
+			
+			<form>
+			
+				ID Rodzaju <br /> <select name='typeID'>
+					<option> 1 </option>
+					<option> 2 </option>
+				</select> <br /> <br />
+				
+				ID Zamówienia <br /> <select name='orderID'>
+					<option> 1 </option>
+					<option> 2 </option>
+				</select> <br /> <br />
+			
+				<input type='submit' value='Dodaj rekord'>
+			
+			</form>
+		
+		</div>
+	
+	
+	
+	
+	
+
+	</div>
+
+</body>
+
+</html>

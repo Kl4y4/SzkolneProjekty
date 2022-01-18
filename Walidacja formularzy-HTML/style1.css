@@ -1,0 +1,47 @@
+body {
+	background-image: linear-gradient(pink, hotpink);
+	margin: 0px;
+	background-repeat: no-repeat;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.table {
+	border: 2px dashed white;
+	border-radius: 25px;
+	background-color: white;
+	margin: 5%;
+	padding: 10px;
+	width: 20%;
+	
+}
+
+#content {
+	//background-color: black;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

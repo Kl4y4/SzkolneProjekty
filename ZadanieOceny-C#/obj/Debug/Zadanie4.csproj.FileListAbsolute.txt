@@ -1,0 +1,7 @@
+C:\Users\surow\Desktop\PD\Podstawy Programowania\zadanko4Oceny\Zadanie4\bin\Debug\Zadanie4.exe.config
+C:\Users\surow\Desktop\PD\Podstawy Programowania\zadanko4Oceny\Zadanie4\bin\Debug\Zadanie4.exe
+C:\Users\surow\Desktop\PD\Podstawy Programowania\zadanko4Oceny\Zadanie4\bin\Debug\Zadanie4.pdb
+C:\Users\surow\Desktop\PD\Podstawy Programowania\zadanko4Oceny\Zadanie4\obj\Debug\Zadanie4.csprojAssemblyReference.cache
+C:\Users\surow\Desktop\PD\Podstawy Programowania\zadanko4Oceny\Zadanie4\obj\Debug\Zadanie4.csproj.CoreCompileInputs.cache
+C:\Users\surow\Desktop\PD\Podstawy Programowania\zadanko4Oceny\Zadanie4\obj\Debug\Zadanie4.exe
+C:\Users\surow\Desktop\PD\Podstawy Programowania\zadanko4Oceny\Zadanie4\obj\Debug\Zadanie4.pdb
