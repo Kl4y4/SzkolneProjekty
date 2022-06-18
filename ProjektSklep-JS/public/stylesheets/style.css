@@ -1,0 +1,99 @@
+body {
+    font-family: 'Lato', sans-serif;;
+}
+
+#filters-deck > form {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 30px;
+}
+
+#container {
+    display: flex;
+    margin: 0 40px;
+    
+}
+
+.deck-container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0 80px;
+    
+}
+
+.wrapper {
+    min-width: 300px;
+}
+
+.wrapper form {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    text-align: center;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+#text {
+    font-size: 25px;
+    margin: 50px 250px 0;
+    
+}
+
+#filters-deck {
+    margin-top: 50px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    font-size: 25px;
+
+}
+
+.filter-element {
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.filter-element select {
+    font-size: 20px;
+}
+
+button {
+    background-color: #fff;
+    padding: 5px 50px;
+    font-size: 20px;
+    color: #00b2ca;
+    border: 3px solid lightblue;
+    cursor: pointer;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: lightblue;
+    color: #fff;
+    
+    transition: 0.2s;
+}
+
+button:active {
+    background-color: #00b2ca;
+    border-color: #00b2ca;
+    color: #fff;
+}
+

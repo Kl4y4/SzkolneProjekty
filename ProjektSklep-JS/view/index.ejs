@@ -1,0 +1,103 @@
+<html lang="en">
+    <head>
+        <title> DeckShop </title>
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/header.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lato:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <div id="hamburger">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+            
+                <ul class="menu__box">
+                
+                  <li><a class="menu__item" href="http://localhost:3000/">Strona Główna</a></li>
+                  <li><a class="menu__item" href="http://localhost:3000/about">Podpis</a></li>
+
+                </ul>
+              </div>
+            <div id="title">DECKSHOP</div>
+            <div id="logo"><img src="icon.png" alt="logo"></div>
+            
+        </header>
+
+        
+      
+
+        <div id="text">
+            <h1> Witamy w DeckShop! </h1>
+            <p> Nasz sklep oferuje szeroki wybór blatów do deskorolek najwyższej jakoś jedynie od renomowanych producentów. Zapraszamy wszystkich szefów do przejrzenia naszej oferty ;)))) </p>
+        </div>
+    
+        <div id="filters-deck">
+            <form action="http://localhost:3000/" method="GET">
+
+            <div class="filter-element">
+                <label for="szerokosc">SZEROKOŚĆ </label>
+                <select name="szerokosc" id="szerokosc">
+                    <option value="" disabled selected hidden>wybierz</option>
+                    <option value="7.5">7.5</option>
+                    <option value="7.75">7.75</option>
+                    <option value="8">8</option>
+                    <option value="8.38">8.38</option>
+                    <option value="8.5">8.5</option>
+                </select>
+            </div>
+
+            <div class="filter-element">
+                <label for="marka">MAX CENA </label>
+                <div>
+                    <input id="suwak" type="range" oninput="myFunction(this.value)" value="<%= maxCena %>" min="0" max="<%= maxCena %>" step="1" name="inpMaxCena" />
+                    <span id="cena">500</span>
+                    <script>
+                        let x = document.querySelector("#suwak");
+                        let y = document.querySelector("#cena");
+                        const myFunction = () => {
+                            y.textContent = x.value;
+                        }
+                    </script>
+                </div>
+                
+            </div>
+
+            <button type="submit" id="filter">SZUKAJ</button>
+
+            </form>
+
+        </div>
+
+        <div id="container">
+            <div class="deck-container">
+
+                <% decks.forEach(deck => { %>
+
+                    <div class="wrapper">
+                        <form action="http://localhost:3000/product" method="GET">
+                            <div class="imgContainer">
+                                <img src="<%= deck.LinkZdjecie %>" alt="<%= deck.Nazwa %>">
+                            </div>
+                            <div class="info">
+                                <p> <%= deck.Nazwa %>  </p>
+                                <p> <%= deck.Cena %> zl </p>
+                            </div>
+                            <input type="number" name="id" value="<%= deck.IdDecku %>" style="visibility: hidden;" /> <br />
+                            <button type="submit">Zobacz</button>
+                        </form>
+                    </div>
+
+                <% }); %>
+                
+            </div>
+        </div>
+    
+    
+    </body>
+    </html> 

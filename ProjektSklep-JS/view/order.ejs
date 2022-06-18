@@ -1,0 +1,86 @@
+<html>
+<head>
+    <title> DeckShop </title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aliceblue;
+            font-family: Lato;
+        }
+        .buttons {
+            display: flex;
+            flex-direction: row;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            border: 1px solid lightblue;
+            border-radius: 15px;
+            background-color: white;
+        }
+        input {
+            padding: 3px;
+        }
+        form, img {
+            padding: 10px;
+        }
+        button {
+            background-color: #fff;
+            padding: 5px 50px;
+            font-size: 20px;
+            color: #00b2ca;
+            border: 3px solid lightblue;
+            cursor: pointer;
+            font-family: 'Kdam Thmor Pro', sans-serif;
+            letter-spacing: 2px;
+            transition: 0.2s;
+        }
+        button:hover {
+            background-color: lightblue;
+            color: #fff;
+            
+            transition: 0.2s;
+        }
+        button:active {
+            background-color: #00b2ca;
+            border-color: #00b2ca;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <img src="<%= LinkZdjecie %>" alt="<%= Nazwa %>">
+
+        <form action="http://localhost:3000/product/done" method="POST">
+            <h1> Wypełnij swoje dane </h1>
+            <label for="imie">Imię</label>
+            <input type="text" name="imie" id="imie" required>
+            <label for="nazwisko">Nazwisko</label>
+            <input type="text" name="nazwisko" id="nazwisko" required>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required> <br /> <br />
+            <label for="miasto">Miasto</label>
+            <input type="text" name="miasto" id="miasto" required>
+            <label for="ulica">Ulica</label>
+            <input type="text" name="ulica" id="ulica" required>
+            <label for="kodPoczt">Kod pocztowy</label>
+            <input type="text" name="kodPoczt" id="kodPoczt" required> <br /> <br />
+            <input type="number" name="idDecku" id="idDecku" value="<%= IdDecku %>" style="visibility: hidden; height: 0; width: 0;">
+            <div class="buttons">
+                <button type="reset"> Wyczyść </button>
+                <button type="submit"> Zamów </button>
+            </div>
+        </form>
+
+    </div>
+
+    
+
+</body>
+</html>

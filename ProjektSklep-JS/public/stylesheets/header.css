@@ -1,0 +1,104 @@
+header {
+    background-color: #00b2ca;
+    
+    height: 150px;
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+}
+
+
+#logo img {
+    margin-top: 35px;
+    height: 90px;
+    padding-right: 50px;
+}
+
+#title {
+    color: #00b2ca;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    letter-spacing: 5px;
+    filter: brightness(50%);
+    font-size: 100px;
+    text-align: center;
+    flex-grow: 2;
+}
+
+
+#menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    left: 0 !important;
+  }
+  .menu__btn {
+    position: absolute;
+    top: 100px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -28px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 28px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    top: -40px;
+    left: -100%;
+    height: 100%;
+    
+    min-width: 250px;
+    margin: 0;
+    padding: 230px 0;
+    list-style: none;
+    background-color: #ECEFF1;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transition-duration: .25s;
+    z-index: 1;
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    background-color: lightblue;
+  }
+
+  
+#hamburger {
+    margin: 0 30px;
+}
